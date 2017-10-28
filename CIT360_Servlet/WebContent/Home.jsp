@@ -5,11 +5,13 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title> My first JSP   </title>
+		<title>CIT360 - Servlet Topic</title>
 	</head>	
 	<body>		
-		<form action="HelloServlet">			
-			 Please enter a color <br>
+		<form action="ServletTopic">	
+			 Please enter your name: <br>
+			<input type="text" name="name"size="20px"> <br>		
+			 Please enter your favorite color: <br>
 			<input type="text" name="color"size="20px">
 			<input type="submit" value="submit">						
 		</form>		
